@@ -1,0 +1,6 @@
+pyinstaller --noconfirm --onefile --windowed --icon "resources/omni_hoverboard_icn.ico" --name "Hover Board" --add-data "resources;resources/"  "main.py"
+
+add in code
+
+import os, sys
+os.chdir(sys._MEIPASS)
